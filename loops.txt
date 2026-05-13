@@ -1,0 +1,77 @@
+/* 
+
+ * 
+ * *
+ * * *  
+ * * * *
+
+*/
+
+BEGIN 
+
+FOR (int i = 1; i <= 3; i++) 
+
+    FOR (int j = 1; j <= i; j++)
+
+        PRINT "*"
+
+    END FOR
+
+END FOR
+
+END
+
+
+/*
+
+i=1; j=1; j<=i ; i++  PRINT"*" *
+i=2; j<=2; j<=i ;i++  PRINT"*" * *
+i=3; j<=3; j<=i ;i++  PRINT"*" * * *
+
+*/
+
+//DO WHILE loop  
+runs at least once, then check the Condition
+
+//password = "Admin"
+
+BEGIN 
+
+//print numbers from 1 to 5
+
+int i = 1
+
+DO 
+
+    PRINT i // 1 2 3 4 5 6
+    i++
+
+WHILE (i<=5)
+
+END
+
+output
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DO 
+
+    statement
+
+WHILE(Condition)
+
