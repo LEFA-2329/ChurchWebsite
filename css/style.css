@@ -61,3 +61,11 @@ main{
 #logo-image{
     align-items: center;
 }
+
+/*main sections*/
+.Container1{
+    margin:1rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+}
